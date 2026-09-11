@@ -17,6 +17,7 @@ body {
 .wrap {
     width: min(1160px, 92%);
     margin: auto;
+  
    
 }
 
@@ -318,7 +319,7 @@ color:white}
 
 .photoGrid img {
     width: 100%;
-    
+  
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 8px 22px #0002
@@ -401,54 +402,70 @@ footer .wrap {
     gap: 20px
 }
 
-@media(max-width:900px) {
+@media (max-width: 900px) {
+body{
+padding:20px;}
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 2000;
+    }
+
     #toggle {
-        display: block
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 2002;
     }
 
     nav {
         display: none;
-        position: absolute;
+        position: fixed;
         top: 72px;
         left: 0;
         right: 0;
+        width: 100%;
         background: #fff;
         padding: 20px;
         flex-direction: column;
-        gap: 14px
+        gap: 14px;
+        box-shadow: 0 8px 20px #0002;
+        z-index: 2001;
     }
 
     nav.open {
-        display: flex
+        display: flex;
     }
 
     .cards,
     .two {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 
     .featured {
-        transform: none
+        transform: none;
     }
 
     .menuList {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 
     .photoGrid {
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
     }
 
     .food {
-        height: 300px
+        height: 300px;
     }
 
     footer .wrap {
         flex-direction: column;
-        align-items: flex-start
+        align-items: flex-start;
     }
 }
-
 @media(max-width:560px) {
     .buttons {
         flex-direction: column
@@ -484,7 +501,8 @@ footer .wrap {
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#17110d}
 .menu-section{min-height:100vh;padding:90px 0 100px;background:#17110d;color:#fff}
-.menu-container{width:min(1180px,92%);margin:auto}
+.menu-container{width:min(1180px,92%);margin:auto;
+}
 .menu-heading{text-align:center;max-width:850px;margin:0 auto 55px}
 .eyebrow{margin-bottom:12px;color:#c85d18;font-size:13px;font-weight:800;letter-spacing:4px;text-transform:uppercase}
 .menu-heading h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,6vw,72px);line-height:1.05}

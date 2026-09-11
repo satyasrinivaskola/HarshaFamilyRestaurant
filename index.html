@@ -2,178 +2,172 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Harsha Family Restaurant | Complete Menu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Harsha Family Restaurant | Complete Menu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="wrap nav"><a class="brand" href="#home">HARSHA <small>FAMILY RESTAURANT</small></a><button
-                id="toggle">☰</button>
-            <nav id="nav"><a href="#home">Home</a><a href="#offers">Offers</a><a href="#menu">Menu</a><a
-                    href="#about">About</a><a href="#contact">Contact</a></nav>
-        </div>
-    </header>
-    <section id="home" class="hero">
-        <div class="shade"></div>
-        <div class="wrap heroText">
-            <p class="eyebrow">FAMILY DINING • BIRYANI • INDIAN CUISINE</p>
-            <h1>Delicious food.<br><span>Happy families.</span></h1>
-            <p>Browse the menu and connect with us directly on WhatsApp</p>
-            <div class="buttons"><a class="btn orange" href="#menu">Explore Full Menu</a><a class="btn green"
-                    href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20have%20an%20enquiry."
-                    target="_blank">WhatsApp Us</a></div>
-        </div>
-    </section>
-    <section id="offers">
-        <div class="wrap">
-            <div class="heading">
-                <p class="eyebrow">SPECIAL OFFERS</p>
-                <h2 class="sub-header">Today's Highlights</h2>
-                <p>Advertisement space for the restaurant's latest offers.</p>
-            </div>
-            <div class="cards">
-                <article><b>POPULAR</b>
-                    <h3>Harsha Family Pack</h3>
-                    <p>Family-sized biryani option.</p><strong>₹650</strong><a
-                        href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20the%20Harsha%20Family%20Pack."
-                        target="_blank">Ask on WhatsApp →</a>
-                </article>
-                <article class="featured"><b>SPECIAL</b>
-                    <h3>SP Chicken Biryani</h3>
-                    <p>Signature biryani option.</p><strong>₹350</strong><a
-                        href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20SP%20Chicken%20Biryani."
-                        target="_blank">Order on WhatsApp →</a>
-                </article>
-                <article><b>TRY IT</b>
-                    <h3>Chicken Tikka Biryani</h3>
-                    <p>Popular biryani variety.</p><strong>₹400</strong><a
-                        href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20Chicken%20Tikka%20Biryani."
-                        target="_blank">Order on WhatsApp →</a>
-                </article>
-            </div>
-        </div>
-    </section>
+  <header>
+    <div class="wrap nav"><a class="brand" href="#home">HARSHA <small>FAMILY RESTAURANT</small></a><button
+        id="toggle">☰</button>
+      <nav id="nav"><a href="#home">Home</a><a href="#offers">Offers</a><a href="#menu">Menu</a><a
+          href="#about">About</a><a href="#contact">Contact</a></nav>
+    </div>
+  </header>
+  <section id="home" class="hero">
+    <div class="shade"></div>
+    <div class="wrap heroText">
+      <p class="eyebrow">FAMILY DINING • BIRYANI • INDIAN CUISINE</p>
+      <h1>Delicious food.<br><span>Happy families.</span></h1>
+      <p>Browse the menu and connect with us directly on WhatsApp</p>
+      <div class="buttons"><a class="btn orange" href="#menu">Explore Full Menu</a><a class="btn green"
+          href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20have%20an%20enquiry."
+          target="_blank">WhatsApp Us</a></div>
+    </div>
+  </section>
+  <section id="offers">
+    <div class="wrap">
+      <div class="heading">
+        <p class="eyebrow">SPECIAL OFFERS</p>
+        <h2 class="sub-header">Today's Highlights</h2>
+        <p>Advertisement space for the restaurant's latest offers.</p>
+      </div>
+      <div class="cards">
+        <article><b>POPULAR</b>
+          <h3>Harsha Family Pack</h3>
+          <p>Family-sized biryani option.</p><strong>₹650</strong><a
+            href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20the%20Harsha%20Family%20Pack."
+            target="_blank">Ask on WhatsApp →</a>
+        </article>
+        <article class="featured"><b>SPECIAL</b>
+          <h3>SP Chicken Biryani</h3>
+          <p>Signature biryani option.</p><strong>₹350</strong><a
+            href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20SP%20Chicken%20Biryani."
+            target="_blank">Order on WhatsApp →</a>
+        </article>
+        <article><b>TRY IT</b>
+          <h3>Chicken Tikka Biryani</h3>
+          <p>Popular biryani variety.</p><strong>₹400</strong><a
+            href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20want%20Chicken%20Tikka%20Biryani."
+            target="_blank">Order on WhatsApp →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section menuSection">
+    <div class="menu-container">
+      <div class="menu-heading">
+        <div class="eyebrow">OUR MENU</div>
+        <h1>Choose a category</h1>
+        <p>Discover delicious flavours made for every craving.</p>
+      </div>
+      <div id="categoryGrid" class="category-grid"></div>
+    </div>
+  </section>
+  <div id="menuModal" class="menu-modal" aria-hidden="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <button id="closeModal" class="close-modal" aria-label="Close">&times;</button>
+      <div class="modal-heading">
+        <div id="modalEyebrow" class="eyebrow"></div>
+        <h2 id="modalTitle"></h2>
+      </div>
+      <div id="itemList" class="item-list"></div>
+    </div>
+  </div>
+
+
   
-       <section id="menu" class="menu-section menuSection">
-  <div class="menu-container">
-    <div class="menu-heading">
-      <div class="eyebrow">OUR MENU</div>
-      <h1>Choose a category</h1>
-      <p>Discover delicious flavours made for every craving.</p>
+  <section id="about">
+    <div class="wrap two">
+      <div class="food"></div>
+      <div>
+        <p class="eyebrow">ABOUT HARSHA</p>
+        <h2 class="sub-header">Family food, generous flavours.</h2>
+        <p>Flavours Made for Every Family.
+
+          At Harsha Family Restaurant,</p><b>
+          <p>
+            we bring together delicious flavours,
+            generous portions, and a welcoming family dining experience.
+            From favourite biryanis to starters, curries, tandoori dishes, and more — there’s something for everyone to
+            enjoy.
+          </p>
+      </div>
     </div>
-    <div id="categoryGrid" class="category-grid"></div>
-  </div>
-</section>
-<div id="menuModal" class="menu-modal" aria-hidden="true">
-  <div class="modal-overlay"></div>
-  <div class="modal-box">
-    <button id="closeModal" class="close-modal" aria-label="Close">&times;</button>
-    <div class="modal-heading">
-      <div id="modalEyebrow" class="eyebrow"></div>
-      <h2 id="modalTitle"></h2>
+  </section>
+  <section id="contact" class="contact">
+    <div class="wrap two">
+      <div>
+        <p class="eyebrow">FIND US</p>
+        <h2>Visit Harsha Family Restaurant.</h2>
+        <p>Railway Station Road, near Devi Chowk.</p>
+        <p class="details">📍 Railway Station Rd, near Devi Chowk<br>📞 919494123888
+          <br>🕒9am–9pm (Monday)
+          <br>🕒9am–9pm (Wednesday)
+          <br>🕒9am–9pm (Thursday)
+          <br>🕒9am–9pm (Friday)
+          <br>🕒9am–9pm (Saturday)
+          <br>🕒9am–9pm (Sunday)
+          <br>Tuesday (Closed)
+        </p>
+      </div>
+      <div class="box">
+        <h3>Order or enquire</h3>
+        <p>Send a WhatsApp message directly to the restaurant admin.</p><a class="btn green full"
+          href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20would%20like%20to%20place%20an%20order."
+          target="_blank">💬 WhatsApp Order</a><a class="btn outline full"
+          href="https://www.google.com/maps/search/?api=1&query=HARSHA+FAMILY+RESTAURANT+East+Godavari"
+          target="_blank">📍 Open in Google Maps</a>
+      </div>
     </div>
-    <div id="itemList" class="item-list"></div>
-  </div>
-</div>
+  </section>
+  <footer>
+    <div class="wrap"><a class="brand white" href="#home">HARSHA <small>FAMILY RESTAURANT</small></a>
+      <p>© 2026 Harsha Family Restaurant • Demo website</p>
+    </div>
+  </footer><a class="float"
+    href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20have%20an%20enquiry."
+    target="_blank">WA</a>
+  <script>
+    const WHATSAPP_NUMBER = "919494123888";
 
-    
-    <section class="menuPhotos">
-        <div class="wrap">
-            <div class="heading">
-                <p class="eyebrow">ORIGINAL MENU</p>
-                
-                <p id="para">Discover delicious flavours from our kitchen.</p>
-            </div>
-            <div class="photoGrid"><img src="images/menu-1.jpg" alt="Original menu photo 1">
-           </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="wrap two">
-            <div class="food"></div>
-            <div>
-                <p class="eyebrow">ABOUT HARSHA</p>
-                <h2 class="sub-header">Family food, generous flavours.</h2>
-                <p>Flavours Made for Every Family.
-               
-                    At Harsha Family Restaurant,</p><b><p>
-                     we bring together delicious flavours,
-                    generous portions, and a welcoming family dining experience.
-                    From favourite biryanis to starters, curries, tandoori dishes, and more — there’s something for everyone to enjoy.
-                    </p>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <div class="wrap two">
-            <div>
-                <p class="eyebrow">FIND US</p>
-                <h2>Visit Harsha Family Restaurant.</h2>
-                <p>Railway Station Road, near Devi Chowk.</p>
-                <p class="details">📍 Railway Station Rd, near Devi Chowk<br>📞 919494123888
-                    <br>🕒9am–9pm (Monday)
-                    <br>🕒9am–9pm (Wednesday)
-                    <br>🕒9am–9pm (Thursday)
-                    <br>🕒9am–9pm (Friday)
-                    <br>🕒9am–9pm (Saturday)
-                    <br>🕒9am–9pm (Sunday)
-                    <br>Tuesday (Closed)</p>
-            </div>
-            <div class="box">
-                <h3>Order or enquire</h3>
-                <p>Send a WhatsApp message directly to the restaurant admin.</p><a class="btn green full"
-                    href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20would%20like%20to%20place%20an%20order."
-                    target="_blank">💬 WhatsApp Order</a><a class="btn outline full"
-                    href="https://www.google.com/maps/search/?api=1&query=HARSHA+FAMILY+RESTAURANT+East+Godavari"
-                    target="_blank">📍 Open in Google Maps</a>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="wrap"><a class="brand white" href="#home">HARSHA <small>FAMILY RESTAURANT</small></a>
-            <p>© 2026 Harsha Family Restaurant • Demo website</p>
-        </div>
-    </footer><a class="float"
-        href="https://wa.me/919494123888?text=Hello%20Harsha%20Family%20Restaurant%2C%20I%20have%20an%20enquiry."
-        target="_blank">WA</a>
-    <script>
-       const WHATSAPP_NUMBER="919494123888";
+    const MENU = [{ "cat": "Veg Soups", "num": 1,
+     "name": "Tomato Soup", "price": 100 }, { "cat": "Veg Soups", "num": 2, "name": "Sweet Corn Soup", "price": 100 }, { "cat": "Veg Soups", "num": 3, "name": "Veg Corn Soup", "price": 120 }, { "cat": "Veg Soups", "num": 4, "name": "Veg Hot & Sour Soup", "price": 120 }, { "cat": "Veg Starters", "num": 6, "name": "Veg Spring Roll", "price": 250 }, { "cat": "Veg Starters", "num": 7, "name": "Paneer 65", "price": 240 }, { "cat": "Veg Starters", "num": 8, "name": "Chilly Panner", "price": 240 }, { "cat": "Veg Starters", "num": 9, "name": "Paneer Manchuria", "price": 240 }, { "cat": "Veg Starters", "num": 10, "name": "Mushroom 65", "price": 240 }, { "cat": "Veg Starters", "num": 11, "name": "Mushroom Dry Roast", "price": 240 }, { "cat": "Veg Starters", "num": 12, "name": "Chilly Mushroom", "price": 240 }, { "cat": "Veg Starters", "num": 13, "name": "Crispy Baby Corn", "price": 240 }, { "cat": "Veg Starters", "num": 14, "name": "Chilly Baby Corn", "price": 240 }, { "cat": "Veg Starters", "num": 15, "name": "Baby Corn Manchuria", "price": 240 }, { "cat": "Veg Starters", "num": 16, "name": "Veg Manchuria", "price": 200 }, { "cat": "Veg Starters", "num": 17, "name": "Veg 99", "price": 220 }, { "cat": "Veg Starters", "num": 18, "name": "Crispy Veg", "price": 180 }, { "cat": "Veg Starters", "num": 19, "name": "Panner Majestic", "price": 250 }, { "cat": "Veg Starters", "num": 20, "name": "Panner 555", "price": 250 }, { "cat": "Veg Biryani", "num": 20, "name": "Veg Briyani", "price": 160 }, { "cat": "Veg Biryani", "num": 21, "name": "SP Veg Briyani", "price": 220 }, { "cat": "Veg Biryani", "num": 22, "name": "Panner Briyani", "price": 200 }, { "cat": "Veg Biryani", "num": 23, "name": "SP Panner Briyani", "price": 260 }, { "cat": "Veg Biryani", "num": 24, "name": "Mushroom Briyani", "price": 200 }, { "cat": "Veg Biryani", "num": 25, "name": "SP Mushroom Briyani", "price": 260 }, { "cat": "Veg Biryani", "num": 26, "name": "Mushroom Rose Briyani", "price": 280 }, { "cat": "Veg Biryani", "num": 27, "name": "Panner Rose Briyani", "price": 280 }, { "cat": "Veg Biryani", "num": 28, "name": "Baby Corn Briyani", "price": 200 }, { "cat": "Veg Biryani", "num": 29, "name": "SP Baby Corn Briyani", "price": 260 }, { "cat": "Veg Biryani", "num": 30, "name": "Gobi Briyani", "price": 200 }, { "cat": "Veg Rice & Noodles", "num": 31, "name": "Veg Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 32, "name": "SP Veg Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 33, "name": "Paneer Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 34, "name": "SP Paneer Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 35, "name": "Mushroom Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 36, "name": "SP Mushroom Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 37, "name": "Veg Schezwan Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 38, "name": "Jeera Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 39, "name": "Curd Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 40, "name": "Baby Corn Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 41, "name": "SP Baby Corn Fried Rice", "price": null }, { "cat": "Veg Rice & Noodles", "num": 42, "name": "Gobi Fried Rice", "price": null }, { "cat": "Veg Curries", "num": 43, "name": "Menu item 43 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 44, "name": "Menu item 44 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 45, "name": "Menu item 45 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 46, "name": "Menu item 46 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 47, "name": "Menu item 47 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 48, "name": "Menu item 48 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 49, "name": "Menu item 49 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 50, "name": "Menu item 50 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 51, "name": "Menu item 51 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 52, "name": "Menu item 52 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 53, "name": "Menu item 53 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 54, "name": "Menu item 54 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 55, "name": "Menu item 55 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 56, "name": "Menu item 56 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 57, "name": "Menu item 57 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 58, "name": "Menu item 58 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 59, "name": "Menu item 59 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 60, "name": "Menu item 60 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 61, "name": "Menu item 61 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 62, "name": "Menu item 62 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 63, "name": "Menu item 63 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 64, "name": "Menu item 64 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 65, "name": "Menu item 65 — clearer photo needed", "price": null }, { "cat": "Veg Curries", "num": 66, "name": "Menu item 66 — clearer photo needed", "price": null }, { "cat": "Non-Veg Soups", "num": 67, "name": "Chicken Soup", "price": 140 }, { "cat": "Non-Veg Soups", "num": 68, "name": "Chicken Sweet Corn Soup", "price": 140 }, { "cat": "Non-Veg Soups", "num": 69, "name": "Chicken Dragon Soup", "price": 150 }, { "cat": "Non-Veg Soups", "num": 70, "name": "Chicken Clear Soup", "price": 140 }, { "cat": "Non-Veg Soups", "num": 71, "name": "Lemon Coriander Soup", "price": 140 }, { "cat": "Non-Veg Soups", "num": 72, "name": "Mutton Bone Soup", "price": 160 }, { "cat": "Non-Veg Rice & Noodles", "num": 73, "name": "Egg Fried Rice", "price": 200 }, { "cat": "Non-Veg Rice & Noodles", "num": 74, "name": "Chicken Fried Rice", "price": 250 }, { "cat": "Non-Veg Rice & Noodles", "num": 75, "name": "SP Chicken Fried Rice", "price": 330 }, { "cat": "Non-Veg Rice & Noodles", "num": 76, "name": "Schezwan Chicken Fried Rice", "price": 300 }, { "cat": "Non-Veg Rice & Noodles", "num": 77, "name": "Chicken 65 Fried Rice", "price": 350 }, { "cat": "Non-Veg Rice & Noodles", "num": 78, "name": "Chicken Frybit Fried Rice", "price": 280 }, { "cat": "Non-Veg Rice & Noodles", "num": 79, "name": "Mutton Fried Rice", "price": 300 }, { "cat": "Non-Veg Rice & Noodles", "num": 80, "name": "SP Mutton Fried Rice", "price": 350 }, { "cat": "Non-Veg Rice & Noodles", "num": 81, "name": "Mix Fried Rice", "price": 300 }, { "cat": "Non-Veg Rice & Noodles", "num": 82, "name": "Prawns Fried Rice", "price": 300 }, { "cat": "Non-Veg Rice & Noodles", "num": 83, "name": "SP Prawns Fried Rice", "price": 350 }, { "cat": "Non-Veg Rice & Noodles", "num": 84, "name": "Mogalai Fried Rice", "price": 280 }, { "cat": "Non-Veg Rice & Noodles", "num": 85, "name": "Egg Soft Noodles", "price": 150 }, { "cat": "Non-Veg Starters", "num": 86, "name": "Chicken Dry Roasr (Bone)", "price": 230 }, { "cat": "Non-Veg Starters", "num": 87, "name": "Chicken Dry Roast (Bone Less)", "price": 280 }, { "cat": "Non-Veg Starters", "num": 88, "name": "Chicken Fry Bone", "price": 220 }, { "cat": "Non-Veg Starters", "num": 89, "name": "Chicken Fry Bone Less", "price": 260 }, { "cat": "Non-Veg Starters", "num": 90, "name": "Chilly Chicken", "price": 250 }, { "cat": "Non-Veg Starters", "num": 91, "name": "Chicken Manchuria", "price": 250 }, { "cat": "Non-Veg Starters", "num": 92, "name": "Chicken - 65", "price": 250 }, { "cat": "Non-Veg Starters", "num": 93, "name": "Pepper Chicken", "price": 280 }, { "cat": "Non-Veg Starters", "num": 94, "name": "Chicken - 555", "price": 280 }, { "cat": "Non-Veg Starters", "num": 95, "name": "Chicken Winglets", "price": 280 }, { "cat": "Non-Veg Starters", "num": 96, "name": "Chicken Drum Sticks", "price": 350 }, { "cat": "Non-Veg Starters", "num": 97, "name": "Chicken Lolly Pops", "price": 350 }, { "cat": "Non-Veg Starters", "num": 98, "name": "Garlic Chicken", "price": 350 }, { "cat": "Non-Veg Starters", "num": 99, "name": "Chicken Joint Roast", "price": 260 }, { "cat": "Non-Veg Starters", "num": 100, "name": "Chicken Joint Roast (Semi Gravy)", "price": 150 }, { "cat": "Non-Veg Starters", "num": 101, "name": "Chicken Dum Pieces", "price": 170 }, { "cat": "Non-Veg Starters", "num": 102, "name": "Chicken Dragon", "price": 150 }, { "cat": "Non-Veg Starters", "num": 103, "name": "Chicken Hongkong", "price": 280 }, { "cat": "Non-Veg Starters", "num": 104, "name": "Lemon Chicken", "price": 260 }, { "cat": "Non-Veg Starters", "num": 105, "name": "Slice Chilly Chicken", "price": 280 }, { "cat": "Non-Veg Starters", "num": 106, "name": "Chicken Barbeque", "price": 280 }, { "cat": "Non-Veg Starters", "num": 107, "name": "Chicken Gulkara", "price": 350 }, { "cat": "Non-Veg Starters", "num": 108, "name": "Cashew Chicken Dry", "price": 300 }, { "cat": "Non-Veg Starters", "num": 109, "name": "Chicken Majestic", "price": 300 }, { "cat": "Non-Veg Starters", "num": 110, "name": "Chicken Satya", "price": 280 }, { "cat": "Non-Veg Starters", "num": 111, "name": "Chicken Keema Balls", "price": 350 }, { "cat": "Non-Veg Starters", "num": 112, "name": "Chicken Liver Fry", "price": 300 }, { "cat": "Non-Veg Starters", "num": 113, "name": "Chicken Khatiya Roll", "price": 250 }, { "cat": "Non-Veg Starters", "num": 114, "name": "Chicken Ghee Roast", "price": 250 }, { "cat": "Non-Veg Starters", "num": 115, "name": "Mutton Ghee Roast", "price": 300 }, { "cat": "Non-Veg Starters", "num": 116, "name": "Mutton Fry", "price": 350 }, { "cat": "Non-Veg Starters", "num": 117, "name": "Mutton Manchuria", "price": 300 }, { "cat": "Non-Veg Starters", "num": 118, "name": "Mutton 65", "price": 350 }, { "cat": "Non-Veg Starters", "num": 119, "name": "Chilly Mutton", "price": 350 }, { "cat": "Non-Veg Starters", "num": 120, "name": "Ginger Mutton", "price": 350 }, { "cat": "Non-Veg Starters", "num": 121, "name": "Mutton Millennium", "price": 400 }, { "cat": "Non-Veg Starters", "num": 123, "name": "Prawns Fry", "price": 280 }, { "cat": "Non-Veg Starters", "num": 124, "name": "Loose Prawns", "price": 300 }, { "cat": "Non-Veg Starters", "num": 125, "name": "Chilly Prawns", "price": 300 }, { "cat": "Non-Veg Starters", "num": 126, "name": "Ginger Prawns", "price": 300 }, { "cat": "Non-Veg Starters", "num": 127, "name": "Prawns Manchuria", "price": 300 }, { "cat": "Non-Veg Starters", "num": 128, "name": "Apolla Fish", "price": 300 }, { "cat": "Non-Veg Starters", "num": 129, "name": "Chilly Fish (Bone Less)", "price": 300 }, { "cat": "Non-Veg Starters", "num": 130, "name": "Fish Fry (Bone)", "price": 180 }, { "cat": "Non-Veg Starters", "num": 131, "name": "Fish Roast", "price": 180 }, { "cat": "Non-Veg Starters", "num": 132, "name": "Butter Prawns", "price": 300 }, { "cat": "Non-Veg Starters", "num": 133, "name": "D.G. Fry", "price": 350 }, { "cat": "Non-Veg Starters", "num": 134, "name": "Amlet", "price": 80 }, { "cat": "Non-Veg Biryani", "num": 135, "name": "Empty Biryani", "price": 160 }, { "cat": "Non-Veg Biryani", "num": 136, "name": "Hyd Chicken Dum Biryani", "price": 280 }, { "cat": "Non-Veg Biryani", "num": 137, "name": "Half Chicken Biryani", "price": 200 }, { "cat": "Non-Veg Biryani", "num": 138, "name": "Chicken Fry Bit Biryani", "price": 280 }, { "cat": "Non-Veg Biryani", "num": 139, "name": "Half - Chicken Fry Bit Biryani", "price": 280 }, { "cat": "Non-Veg Biryani", "num": 140, "name": "Chicken Mougalai Biryani", "price": 300 }, { "cat": "Non-Veg Biryani", "num": 141, "name": "Half - Chicken Mougalai Biryani", "price": 220 }, { "cat": "Non-Veg Biryani", "num": 142, "name": "Mutton Fry Bit Biryani", "price": 330 }, { "cat": "Non-Veg Biryani", "num": 143, "name": "Half - Mutton Fry Bit Biryani", "price": 230 }, { "cat": "Non-Veg Biryani", "num": 144, "name": "SP Mutton Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 145, "name": "Mutton Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 146, "name": "Half - Mutton Dum Biryani", "price": 250 }, { "cat": "Non-Veg Biryani", "num": 147, "name": "Mutton Keema Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 148, "name": "Prawns Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 149, "name": "Half - Prawns Biryani", "price": 230 }, { "cat": "Non-Veg Biryani", "num": 150, "name": "SP Chicken Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 151, "name": "Mix Biryani", "price": 330 }, { "cat": "Non-Veg Biryani", "num": 152, "name": "Half - Mix Biryani", "price": 230 }, { "cat": "Non-Veg Biryani", "num": 153, "name": "Harsha SP Prawns Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 154, "name": "Harsha SP Chicken Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 155, "name": "Chicken Dragon Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 156, "name": "Egg Biryani", "price": 180 }, { "cat": "Non-Veg Biryani", "num": 157, "name": "Harsha Family Pack", "price": 650 }, { "cat": "Non-Veg Biryani", "num": 158, "name": "Kabab Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 159, "name": "Tandoori Biryani", "price": 450 }, { "cat": "Non-Veg Biryani", "num": 160, "name": "Chicken Tikka Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 161, "name": "Dilkush Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 162, "name": "Rose Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 163, "name": "Rajulu Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 164, "name": "Potlam Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 165, "name": "Prawns Mughlai Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 166, "name": "Mutton Mughlai Biryani", "price": 400 }, { "cat": "Non-Veg Biryani", "num": 167, "name": "Mixed Mughlai Biryani", "price": 380 }, { "cat": "Non-Veg Biryani", "num": 168, "name": "Chicken Joint Biryani", "price": 350 }, { "cat": "Non-Veg Biryani", "num": 169, "name": "Egg Biryani", "price": 350 }, { "cat": "Non-Veg Curries", "num": 170, "name": "AP Special Chicken Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 171, "name": "Butter Chicken Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 172, "name": "Kadai Chicken Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 173, "name": "Chicken Curry (Bone)", "price": 230 }, { "cat": "Non-Veg Curries", "num": 174, "name": "Chicken Curry (Bone Less)", "price": 280 }, { "cat": "Non-Veg Curries", "num": 175, "name": "Chicken Tikka Masala Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 176, "name": "Chicken Mougalai Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 177, "name": "Chicken Maharani Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 178, "name": "Methi Chicken Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 179, "name": "Mutton Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 180, "name": "AP Special Mutton Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 181, "name": "Mutton Gongura", "price": 300 }, { "cat": "Non-Veg Curries", "num": 182, "name": "Mutton Mago", "price": 300 }, { "cat": "Non-Veg Curries", "num": 183, "name": "Mutton Kheema Curry", "price": 350 }, { "cat": "Non-Veg Curries", "num": 184, "name": "Mutton Cashew Curry", "price": 350 }, { "cat": "Non-Veg Curries", "num": 185, "name": "Mutton Nullius Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 186, "name": "Prawns Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 187, "name": "Prawns Masala", "price": 300 }, { "cat": "Non-Veg Curries", "num": 188, "name": "Butter Prawns Curry", "price": 280 }, { "cat": "Non-Veg Curries", "num": 189, "name": "Chicken Bone Masala", "price": 280 }, { "cat": "Non-Veg Curries", "num": 190, "name": "D.G. Curry", "price": 300 }, { "cat": "Non-Veg Curries", "num": 191, "name": "Egg Curry", "price": 150 }, { "cat": "Non-Veg Curries", "num": 192, "name": "Fish Curry", "price": 180 }, { "cat": "Non-Veg Curries", "num": 193, "name": "Fish Masala", "price": 180 }, { "cat": "Non-Veg Curries", "num": 194, "name": "Fish Pulusu", "price": 180 }, { "cat": "Naan & Roti", "num": 195, "name": "Tandoori Roti", "price": 40 }, { "cat": "Naan & Roti", "num": 196, "name": "Butter Roti", "price": 60 }, { "cat": "Naan & Roti", "num": 197, "name": "Plain Naan", "price": 50 }, { "cat": "Naan & Roti", "num": 198, "name": "Butter Naan", "price": 70 }, { "cat": "Naan & Roti", "num": 199, "name": "Mogalai Naan", "price": 100 }, { "cat": "Naan & Roti", "num": 200, "name": "Garlic Naan", "price": 100 }, { "cat": "Naan & Roti", "num": 201, "name": "Pudina Parota", "price": 100 }, { "cat": "Naan & Roti", "num": 202, "name": "Alu Parota", "price": 100 }, { "cat": "Naan & Roti", "num": 203, "name": "Plain Kulcha", "price": 100 }, { "cat": "Naan & Roti", "num": 204, "name": "Pulka", "price": 10 }, { "cat": "Tanduri & Kaba's", "num": 205, "name": "Paneer Tikka", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 206, "name": "Paneer Malai Tikka", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 207, "name": "Kandhari Kabab", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 208, "name": "Chicken Tikka", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 209, "name": "Fish Tikka", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 210, "name": "Tanduri Chicken", "price": 550 }, { "cat": "Tanduri & Kaba's", "num": 211, "name": "Half Tanduri Chicken", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 212, "name": "Tanduri Kabab", "price": 300 }, { "cat": "Tanduri & Kaba's", "num": 213, "name": "Half Tanduri Kabab", "price": 150 }, { "cat": "Tanduri & Kaba's", "num": 214, "name": "Kalmi Kabab", "price": 300 }, { "cat": "Family Table Purpose", "num": 215, "name": "Half Tomato Soup", "price": 70 }, { "cat": "Family Table Purpose", "num": 216, "name": "Half Sweet Corn Soup", "price": 70 }, { "cat": "Family Table Purpose", "num": 217, "name": "Half Veg Hot & Sour Soup", "price": 70 }, { "cat": "Family Table Purpose", "num": 218, "name": "Half Chicken Sweet Corn Soup", "price": 80 }, { "cat": "Family Table Purpose", "num": 219, "name": "Half Chicken Corn Soup", "price": 80 }, { "cat": "Family Table Purpose", "num": 220, "name": "Half Chicken Hot & Sour Soup", "price": 90 }, { "cat": "Family Table Purpose", "num": 221, "name": "Chicken Fried Wings", "price": 350 }, { "cat": "Drinks", "num": 222, "name": "Cool Drink", "price": 30 }, { "cat": "Drinks", "num": 223, "name": "Mineral Water", "price": 30 }, { "cat": "Drinks", "num": 224, "name": "Butter Milk", "price": 50 }, { "cat": "Drinks", "num": 225, "name": "Sweet Lassy", "price": 60 }, { "cat": "Drinks", "num": 226, "name": "Lassy Salt", "price": 50 }, { "cat": "Drinks", "num": 227, "name": "Half LT Cool Drink", "price": 50 }, { "cat": "Drinks", "num": 228, "name": "Coke Tins", "price": 50 }];
 
-const MENU=[{"cat": "Veg Soups", "num": 1, "name": "Tomato Soup", "price": 100}, {"cat": "Veg Soups", "num": 2, "name": "Sweet Corn Soup", "price": 100}, {"cat": "Veg Soups", "num": 3, "name": "Veg Corn Soup", "price": 120}, {"cat": "Veg Soups", "num": 4, "name": "Veg Hot & Sour Soup", "price": 120}, {"cat": "Veg Starters", "num": 6, "name": "Veg Spring Roll", "price": 250}, {"cat": "Veg Starters", "num": 7, "name": "Paneer 65", "price": 240}, {"cat": "Veg Starters", "num": 8, "name": "Chilly Panner", "price": 240}, {"cat": "Veg Starters", "num": 9, "name": "Paneer Manchuria", "price": 240}, {"cat": "Veg Starters", "num": 10, "name": "Mushroom 65", "price": 240}, {"cat": "Veg Starters", "num": 11, "name": "Mushroom Dry Roast", "price": 240}, {"cat": "Veg Starters", "num": 12, "name": "Chilly Mushroom", "price": 240}, {"cat": "Veg Starters", "num": 13, "name": "Crispy Baby Corn", "price": 240}, {"cat": "Veg Starters", "num": 14, "name": "Chilly Baby Corn", "price": 240}, {"cat": "Veg Starters", "num": 15, "name": "Baby Corn Manchuria", "price": 240}, {"cat": "Veg Starters", "num": 16, "name": "Veg Manchuria", "price": 200}, {"cat": "Veg Starters", "num": 17, "name": "Veg 99", "price": 220}, {"cat": "Veg Starters", "num": 18, "name": "Crispy Veg", "price": 180}, {"cat": "Veg Starters", "num": 19, "name": "Panner Majestic", "price": 250}, {"cat": "Veg Starters", "num": 20, "name": "Panner 555", "price": 250}, {"cat": "Veg Biryani", "num": 20, "name": "Veg Briyani", "price": 160}, {"cat": "Veg Biryani", "num": 21, "name": "SP Veg Briyani", "price": 220}, {"cat": "Veg Biryani", "num": 22, "name": "Panner Briyani", "price": 200}, {"cat": "Veg Biryani", "num": 23, "name": "SP Panner Briyani", "price": 260}, {"cat": "Veg Biryani", "num": 24, "name": "Mushroom Briyani", "price": 200}, {"cat": "Veg Biryani", "num": 25, "name": "SP Mushroom Briyani", "price": 260}, {"cat": "Veg Biryani", "num": 26, "name": "Mushroom Rose Briyani", "price": 280}, {"cat": "Veg Biryani", "num": 27, "name": "Panner Rose Briyani", "price": 280}, {"cat": "Veg Biryani", "num": 28, "name": "Baby Corn Briyani", "price": 200}, {"cat": "Veg Biryani", "num": 29, "name": "SP Baby Corn Briyani", "price": 260}, {"cat": "Veg Biryani", "num": 30, "name": "Gobi Briyani", "price": 200}, {"cat": "Veg Rice & Noodles", "num": 31, "name": "Veg Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 32, "name": "SP Veg Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 33, "name": "Paneer Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 34, "name": "SP Paneer Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 35, "name": "Mushroom Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 36, "name": "SP Mushroom Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 37, "name": "Veg Schezwan Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 38, "name": "Jeera Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 39, "name": "Curd Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 40, "name": "Baby Corn Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 41, "name": "SP Baby Corn Fried Rice", "price": null}, {"cat": "Veg Rice & Noodles", "num": 42, "name": "Gobi Fried Rice", "price": null}, {"cat": "Veg Curries", "num": 43, "name": "Menu item 43 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 44, "name": "Menu item 44 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 45, "name": "Menu item 45 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 46, "name": "Menu item 46 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 47, "name": "Menu item 47 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 48, "name": "Menu item 48 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 49, "name": "Menu item 49 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 50, "name": "Menu item 50 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 51, "name": "Menu item 51 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 52, "name": "Menu item 52 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 53, "name": "Menu item 53 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 54, "name": "Menu item 54 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 55, "name": "Menu item 55 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 56, "name": "Menu item 56 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 57, "name": "Menu item 57 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 58, "name": "Menu item 58 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 59, "name": "Menu item 59 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 60, "name": "Menu item 60 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 61, "name": "Menu item 61 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 62, "name": "Menu item 62 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 63, "name": "Menu item 63 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 64, "name": "Menu item 64 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 65, "name": "Menu item 65 — clearer photo needed", "price": null}, {"cat": "Veg Curries", "num": 66, "name": "Menu item 66 — clearer photo needed", "price": null}, {"cat": "Non-Veg Soups", "num": 67, "name": "Chicken Soup", "price": 140}, {"cat": "Non-Veg Soups", "num": 68, "name": "Chicken Sweet Corn Soup", "price": 140}, {"cat": "Non-Veg Soups", "num": 69, "name": "Chicken Dragon Soup", "price": 150}, {"cat": "Non-Veg Soups", "num": 70, "name": "Chicken Clear Soup", "price": 140}, {"cat": "Non-Veg Soups", "num": 71, "name": "Lemon Coriander Soup", "price": 140}, {"cat": "Non-Veg Soups", "num": 72, "name": "Mutton Bone Soup", "price": 160}, {"cat": "Non-Veg Rice & Noodles", "num": 73, "name": "Egg Fried Rice", "price": 200}, {"cat": "Non-Veg Rice & Noodles", "num": 74, "name": "Chicken Fried Rice", "price": 250}, {"cat": "Non-Veg Rice & Noodles", "num": 75, "name": "SP Chicken Fried Rice", "price": 330}, {"cat": "Non-Veg Rice & Noodles", "num": 76, "name": "Schezwan Chicken Fried Rice", "price": 300}, {"cat": "Non-Veg Rice & Noodles", "num": 77, "name": "Chicken 65 Fried Rice", "price": 350}, {"cat": "Non-Veg Rice & Noodles", "num": 78, "name": "Chicken Frybit Fried Rice", "price": 280}, {"cat": "Non-Veg Rice & Noodles", "num": 79, "name": "Mutton Fried Rice", "price": 300}, {"cat": "Non-Veg Rice & Noodles", "num": 80, "name": "SP Mutton Fried Rice", "price": 350}, {"cat": "Non-Veg Rice & Noodles", "num": 81, "name": "Mix Fried Rice", "price": 300}, {"cat": "Non-Veg Rice & Noodles", "num": 82, "name": "Prawns Fried Rice", "price": 300}, {"cat": "Non-Veg Rice & Noodles", "num": 83, "name": "SP Prawns Fried Rice", "price": 350}, {"cat": "Non-Veg Rice & Noodles", "num": 84, "name": "Mogalai Fried Rice", "price": 280}, {"cat": "Non-Veg Rice & Noodles", "num": 85, "name": "Egg Soft Noodles", "price": 150}, {"cat": "Non-Veg Starters", "num": 86, "name": "Chicken Dry Roasr (Bone)", "price": 230}, {"cat": "Non-Veg Starters", "num": 87, "name": "Chicken Dry Roast (Bone Less)", "price": 280}, {"cat": "Non-Veg Starters", "num": 88, "name": "Chicken Fry Bone", "price": 220}, {"cat": "Non-Veg Starters", "num": 89, "name": "Chicken Fry Bone Less", "price": 260}, {"cat": "Non-Veg Starters", "num": 90, "name": "Chilly Chicken", "price": 250}, {"cat": "Non-Veg Starters", "num": 91, "name": "Chicken Manchuria", "price": 250}, {"cat": "Non-Veg Starters", "num": 92, "name": "Chicken - 65", "price": 250}, {"cat": "Non-Veg Starters", "num": 93, "name": "Pepper Chicken", "price": 280}, {"cat": "Non-Veg Starters", "num": 94, "name": "Chicken - 555", "price": 280}, {"cat": "Non-Veg Starters", "num": 95, "name": "Chicken Winglets", "price": 280}, {"cat": "Non-Veg Starters", "num": 96, "name": "Chicken Drum Sticks", "price": 350}, {"cat": "Non-Veg Starters", "num": 97, "name": "Chicken Lolly Pops", "price": 350}, {"cat": "Non-Veg Starters", "num": 98, "name": "Garlic Chicken", "price": 350}, {"cat": "Non-Veg Starters", "num": 99, "name": "Chicken Joint Roast", "price": 260}, {"cat": "Non-Veg Starters", "num": 100, "name": "Chicken Joint Roast (Semi Gravy)", "price": 150}, {"cat": "Non-Veg Starters", "num": 101, "name": "Chicken Dum Pieces", "price": 170}, {"cat": "Non-Veg Starters", "num": 102, "name": "Chicken Dragon", "price": 150}, {"cat": "Non-Veg Starters", "num": 103, "name": "Chicken Hongkong", "price": 280}, {"cat": "Non-Veg Starters", "num": 104, "name": "Lemon Chicken", "price": 260}, {"cat": "Non-Veg Starters", "num": 105, "name": "Slice Chilly Chicken", "price": 280}, {"cat": "Non-Veg Starters", "num": 106, "name": "Chicken Barbeque", "price": 280}, {"cat": "Non-Veg Starters", "num": 107, "name": "Chicken Gulkara", "price": 350}, {"cat": "Non-Veg Starters", "num": 108, "name": "Cashew Chicken Dry", "price": 300}, {"cat": "Non-Veg Starters", "num": 109, "name": "Chicken Majestic", "price": 300}, {"cat": "Non-Veg Starters", "num": 110, "name": "Chicken Satya", "price": 280}, {"cat": "Non-Veg Starters", "num": 111, "name": "Chicken Keema Balls", "price": 350}, {"cat": "Non-Veg Starters", "num": 112, "name": "Chicken Liver Fry", "price": 300}, {"cat": "Non-Veg Starters", "num": 113, "name": "Chicken Khatiya Roll", "price": 250}, {"cat": "Non-Veg Starters", "num": 114, "name": "Chicken Ghee Roast", "price": 250}, {"cat": "Non-Veg Starters", "num": 115, "name": "Mutton Ghee Roast", "price": 300}, {"cat": "Non-Veg Starters", "num": 116, "name": "Mutton Fry", "price": 350}, {"cat": "Non-Veg Starters", "num": 117, "name": "Mutton Manchuria", "price": 300}, {"cat": "Non-Veg Starters", "num": 118, "name": "Mutton 65", "price": 350}, {"cat": "Non-Veg Starters", "num": 119, "name": "Chilly Mutton", "price": 350}, {"cat": "Non-Veg Starters", "num": 120, "name": "Ginger Mutton", "price": 350}, {"cat": "Non-Veg Starters", "num": 121, "name": "Mutton Millennium", "price": 400}, {"cat": "Non-Veg Starters", "num": 123, "name": "Prawns Fry", "price": 280}, {"cat": "Non-Veg Starters", "num": 124, "name": "Loose Prawns", "price": 300}, {"cat": "Non-Veg Starters", "num": 125, "name": "Chilly Prawns", "price": 300}, {"cat": "Non-Veg Starters", "num": 126, "name": "Ginger Prawns", "price": 300}, {"cat": "Non-Veg Starters", "num": 127, "name": "Prawns Manchuria", "price": 300}, {"cat": "Non-Veg Starters", "num": 128, "name": "Apolla Fish", "price": 300}, {"cat": "Non-Veg Starters", "num": 129, "name": "Chilly Fish (Bone Less)", "price": 300}, {"cat": "Non-Veg Starters", "num": 130, "name": "Fish Fry (Bone)", "price": 180}, {"cat": "Non-Veg Starters", "num": 131, "name": "Fish Roast", "price": 180}, {"cat": "Non-Veg Starters", "num": 132, "name": "Butter Prawns", "price": 300}, {"cat": "Non-Veg Starters", "num": 133, "name": "D.G. Fry", "price": 350}, {"cat": "Non-Veg Starters", "num": 134, "name": "Amlet", "price": 80}, {"cat": "Non-Veg Biryani", "num": 135, "name": "Empty Biryani", "price": 160}, {"cat": "Non-Veg Biryani", "num": 136, "name": "Hyd Chicken Dum Biryani", "price": 280}, {"cat": "Non-Veg Biryani", "num": 137, "name": "Half Chicken Biryani", "price": 200}, {"cat": "Non-Veg Biryani", "num": 138, "name": "Chicken Fry Bit Biryani", "price": 280}, {"cat": "Non-Veg Biryani", "num": 139, "name": "Half - Chicken Fry Bit Biryani", "price": 280}, {"cat": "Non-Veg Biryani", "num": 140, "name": "Chicken Mougalai Biryani", "price": 300}, {"cat": "Non-Veg Biryani", "num": 141, "name": "Half - Chicken Mougalai Biryani", "price": 220}, {"cat": "Non-Veg Biryani", "num": 142, "name": "Mutton Fry Bit Biryani", "price": 330}, {"cat": "Non-Veg Biryani", "num": 143, "name": "Half - Mutton Fry Bit Biryani", "price": 230}, {"cat": "Non-Veg Biryani", "num": 144, "name": "SP Mutton Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 145, "name": "Mutton Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 146, "name": "Half - Mutton Dum Biryani", "price": 250}, {"cat": "Non-Veg Biryani", "num": 147, "name": "Mutton Keema Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 148, "name": "Prawns Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 149, "name": "Half - Prawns Biryani", "price": 230}, {"cat": "Non-Veg Biryani", "num": 150, "name": "SP Chicken Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 151, "name": "Mix Biryani", "price": 330}, {"cat": "Non-Veg Biryani", "num": 152, "name": "Half - Mix Biryani", "price": 230}, {"cat": "Non-Veg Biryani", "num": 153, "name": "Harsha SP Prawns Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 154, "name": "Harsha SP Chicken Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 155, "name": "Chicken Dragon Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 156, "name": "Egg Biryani", "price": 180}, {"cat": "Non-Veg Biryani", "num": 157, "name": "Harsha Family Pack", "price": 650}, {"cat": "Non-Veg Biryani", "num": 158, "name": "Kabab Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 159, "name": "Tandoori Biryani", "price": 450}, {"cat": "Non-Veg Biryani", "num": 160, "name": "Chicken Tikka Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 161, "name": "Dilkush Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 162, "name": "Rose Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 163, "name": "Rajulu Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 164, "name": "Potlam Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 165, "name": "Prawns Mughlai Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 166, "name": "Mutton Mughlai Biryani", "price": 400}, {"cat": "Non-Veg Biryani", "num": 167, "name": "Mixed Mughlai Biryani", "price": 380}, {"cat": "Non-Veg Biryani", "num": 168, "name": "Chicken Joint Biryani", "price": 350}, {"cat": "Non-Veg Biryani", "num": 169, "name": "Egg Biryani", "price": 350}, {"cat": "Non-Veg Curries", "num": 170, "name": "AP Special Chicken Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 171, "name": "Butter Chicken Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 172, "name": "Kadai Chicken Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 173, "name": "Chicken Curry (Bone)", "price": 230}, {"cat": "Non-Veg Curries", "num": 174, "name": "Chicken Curry (Bone Less)", "price": 280}, {"cat": "Non-Veg Curries", "num": 175, "name": "Chicken Tikka Masala Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 176, "name": "Chicken Mougalai Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 177, "name": "Chicken Maharani Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 178, "name": "Methi Chicken Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 179, "name": "Mutton Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 180, "name": "AP Special Mutton Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 181, "name": "Mutton Gongura", "price": 300}, {"cat": "Non-Veg Curries", "num": 182, "name": "Mutton Mago", "price": 300}, {"cat": "Non-Veg Curries", "num": 183, "name": "Mutton Kheema Curry", "price": 350}, {"cat": "Non-Veg Curries", "num": 184, "name": "Mutton Cashew Curry", "price": 350}, {"cat": "Non-Veg Curries", "num": 185, "name": "Mutton Nullius Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 186, "name": "Prawns Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 187, "name": "Prawns Masala", "price": 300}, {"cat": "Non-Veg Curries", "num": 188, "name": "Butter Prawns Curry", "price": 280}, {"cat": "Non-Veg Curries", "num": 189, "name": "Chicken Bone Masala", "price": 280}, {"cat": "Non-Veg Curries", "num": 190, "name": "D.G. Curry", "price": 300}, {"cat": "Non-Veg Curries", "num": 191, "name": "Egg Curry", "price": 150}, {"cat": "Non-Veg Curries", "num": 192, "name": "Fish Curry", "price": 180}, {"cat": "Non-Veg Curries", "num": 193, "name": "Fish Masala", "price": 180}, {"cat": "Non-Veg Curries", "num": 194, "name": "Fish Pulusu", "price": 180}, {"cat": "Naan & Roti", "num": 195, "name": "Tandoori Roti", "price": 40}, {"cat": "Naan & Roti", "num": 196, "name": "Butter Roti", "price": 60}, {"cat": "Naan & Roti", "num": 197, "name": "Plain Naan", "price": 50}, {"cat": "Naan & Roti", "num": 198, "name": "Butter Naan", "price": 70}, {"cat": "Naan & Roti", "num": 199, "name": "Mogalai Naan", "price": 100}, {"cat": "Naan & Roti", "num": 200, "name": "Garlic Naan", "price": 100}, {"cat": "Naan & Roti", "num": 201, "name": "Pudina Parota", "price": 100}, {"cat": "Naan & Roti", "num": 202, "name": "Alu Parota", "price": 100}, {"cat": "Naan & Roti", "num": 203, "name": "Plain Kulcha", "price": 100}, {"cat": "Naan & Roti", "num": 204, "name": "Pulka", "price": 10}, {"cat": "Tanduri & Kaba's", "num": 205, "name": "Paneer Tikka", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 206, "name": "Paneer Malai Tikka", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 207, "name": "Kandhari Kabab", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 208, "name": "Chicken Tikka", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 209, "name": "Fish Tikka", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 210, "name": "Tanduri Chicken", "price": 550}, {"cat": "Tanduri & Kaba's", "num": 211, "name": "Half Tanduri Chicken", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 212, "name": "Tanduri Kabab", "price": 300}, {"cat": "Tanduri & Kaba's", "num": 213, "name": "Half Tanduri Kabab", "price": 150}, {"cat": "Tanduri & Kaba's", "num": 214, "name": "Kalmi Kabab", "price": 300}, {"cat": "Family Table Purpose", "num": 215, "name": "Half Tomato Soup", "price": 70}, {"cat": "Family Table Purpose", "num": 216, "name": "Half Sweet Corn Soup", "price": 70}, {"cat": "Family Table Purpose", "num": 217, "name": "Half Veg Hot & Sour Soup", "price": 70}, {"cat": "Family Table Purpose", "num": 218, "name": "Half Chicken Sweet Corn Soup", "price": 80}, {"cat": "Family Table Purpose", "num": 219, "name": "Half Chicken Corn Soup", "price": 80}, {"cat": "Family Table Purpose", "num": 220, "name": "Half Chicken Hot & Sour Soup", "price": 90}, {"cat": "Family Table Purpose", "num": 221, "name": "Chicken Fried Wings", "price": 350}, {"cat": "Drinks", "num": 222, "name": "Cool Drink", "price": 30}, {"cat": "Drinks", "num": 223, "name": "Mineral Water", "price": 30}, {"cat": "Drinks", "num": 224, "name": "Butter Milk", "price": 50}, {"cat": "Drinks", "num": 225, "name": "Sweet Lassy", "price": 60}, {"cat": "Drinks", "num": 226, "name": "Lassy Salt", "price": 50}, {"cat": "Drinks", "num": 227, "name": "Half LT Cool Drink", "price": 50}, {"cat": "Drinks", "num": 228, "name": "Coke Tins", "price": 50}];
+    const CATEGORY_INFO = {
+      "Veg Soups": ["🍲", "Fresh and comforting vegetarian soups"],
+      "Veg Starters": ["🥗", "Paneer, mushroom, baby corn & more"],
+      "Veg Biryani": ["🍚", "Vegetarian biryani favourites"],
+      "Veg Rice & Noodles": ["🍜", "Fried rice, noodles & rice varieties"],
+      "Veg Curries": ["🥘", "Paneer, mushroom, dal & other veg curries"],
+      "Non-Veg Soups": ["🍲", "Chicken and mutton soups"],
+      "Non-Veg Starters": ["🍗", "Chicken, mutton, prawns & fish starters"],
+      "Non-Veg Biryani": ["🍗", "Chicken, mutton, prawns & special biryanis"],
+      "Non-Veg Curries": ["🍛", "Chicken, mutton, prawns & fish curries"],
+      "Naan & Roti": ["🫓", "Naan, roti, kulcha, parota & pulka"],
+      "Tanduri & Kaba's": ["🔥", "Tikka, tandoori & kababs"],
+      "Family Table Purpose": ["👨‍👩‍👧‍👦", "Family portions & table specials"],
+      "Drinks": ["🥤", "Cool drinks, water, buttermilk & lassi"]
+    };
 
-const CATEGORY_INFO={
- "Veg Soups":["🍲","Fresh and comforting vegetarian soups"],
- "Veg Starters":["🥗","Paneer, mushroom, baby corn & more"],
- "Veg Biryani":["🍚","Vegetarian biryani favourites"],
- "Veg Rice & Noodles":["🍜","Fried rice, noodles & rice varieties"],
- "Veg Curries":["🥘","Paneer, mushroom, dal & other veg curries"],
- "Non-Veg Soups":["🍲","Chicken and mutton soups"],
- "Non-Veg Starters":["🍗","Chicken, mutton, prawns & fish starters"],
- "Non-Veg Biryani":["🍗","Chicken, mutton, prawns & special biryanis"],
- "Non-Veg Curries":["🍛","Chicken, mutton, prawns & fish curries"],
- "Naan & Roti":["🫓","Naan, roti, kulcha, parota & pulka"],
- "Tanduri & Kaba's":["🔥","Tikka, tandoori & kababs"],
- "Family Table Purpose":["👨‍👩‍👧‍👦","Family portions & table specials"],
- "Drinks":["🥤","Cool drinks, water, buttermilk & lassi"]
-};
+    const grid = document.getElementById("categoryGrid");
+    const modal = document.getElementById("menuModal");
+    const itemList = document.getElementById("itemList");
 
-const grid=document.getElementById("categoryGrid");
-const modal=document.getElementById("menuModal");
-const itemList=document.getElementById("itemList");
+    function items(category) {
+      return MENU.filter(item => item.cat === category);
+    }
 
-function items(category){
-  return MENU.filter(item=>item.cat===category);
-}
+    function whatsapp(message) {
+      return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+    }
 
-function whatsapp(message){
-  return "https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(message);
-}
-
-function renderCategories(){
-  grid.innerHTML=Object.entries(CATEGORY_INFO).map(([category,info])=>`
+    function renderCategories() {
+      grid.innerHTML = Object.entries(CATEGORY_INFO).map(([category, info]) => `
     <button class="category-card" data-category="${category}">
       <div class="category-icon">${info[0]}</div>
       <div class="category-name">${category}</div>
@@ -182,22 +176,22 @@ function renderCategories(){
     </button>
   `).join("");
 
-  document.querySelectorAll(".category-card").forEach(card=>{
-    card.addEventListener("click",()=>openCategory(card.dataset.category));
-  });
-}
+      document.querySelectorAll(".category-card").forEach(card => {
+        card.addEventListener("click", () => openCategory(card.dataset.category));
+      });
+    }
 
-function openCategory(category){
-  const info=CATEGORY_INFO[category];
-  document.getElementById("modalEyebrow").textContent=info[1];
-  document.getElementById("modalTitle").textContent=category;
+    function openCategory(category) {
+      const info = CATEGORY_INFO[category];
+      document.getElementById("modalEyebrow").textContent = info[1];
+      document.getElementById("modalTitle").textContent = category;
 
-  itemList.innerHTML=items(category).map(item=>{
-    const price=item.price!==null ? "₹"+item.price : "Price to verify";
-    const message="Hello Harsha Family Restaurant, I would like to order/enquire about "+item.name+
-      (item.price!==null ? " - ₹"+item.price : "")+".";
+      itemList.innerHTML = items(category).map(item => {
+        const price = item.price !== null ? "₹" + item.price : "Price to verify";
+        const message = "Hello Harsha Family Restaurant, I would like to order/enquire about " + item.name +
+          (item.price !== null ? " - ₹" + item.price : "") + ".";
 
-    return `
+        return `
       <div class="menu-item">
         <div>
           <div class="item-number">#${item.num}</div>
@@ -208,28 +202,44 @@ function openCategory(category){
           <a class="whatsapp-button" href="${whatsapp(message)}" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>`;
-  }).join("");
+      }).join("");
 
-  modal.classList.add("show");
-  modal.setAttribute("aria-hidden","false");
-  document.body.style.overflow="hidden";
-}
+      modal.classList.add("show");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
 
-function closeMenu(){
-  modal.classList.remove("show");
-  modal.setAttribute("aria-hidden","true");
-  document.body.style.overflow="";
-}
+    function closeMenu() {
+      modal.classList.remove("show");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
 
-document.getElementById("closeModal").addEventListener("click",closeMenu);
-document.querySelector(".modal-overlay").addEventListener("click",closeMenu);
-document.addEventListener("keydown",event=>{
-  if(event.key==="Escape") closeMenu();
+    document.getElementById("closeModal").addEventListener("click", closeMenu);
+    document.querySelector(".modal-overlay").addEventListener("click", closeMenu);
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    renderCategories();
+const toggle = document.getElementById("toggle");
+const nav = document.getElementById("nav");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("open");
+
+    toggle.textContent = nav.classList.contains("open")
+        ? "✕"
+        : "☰";
 });
 
-renderCategories();
-
-    </script>
+nav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("open");
+        toggle.textContent = "☰";
+    });
+});
+  </script>
 </body>
 
 </html>
